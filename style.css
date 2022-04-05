@@ -10,3 +10,9 @@
   position: relative;
   color: white;
 }
+
+.left columns {
+  float:left;
+  width:75%;
+  text-align:center;
+}
