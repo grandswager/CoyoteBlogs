@@ -11,8 +11,8 @@
   color: white;
 }
 
-.left columns {
-  float:left;
-  width:75%;
-  text-align:center;
+.leftcolumns {
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+  background-color: lightgray;
 }
