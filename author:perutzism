@@ -18,7 +18,6 @@
           <a href="/author:perutzism">Perutzism</a>
         </div>
       </div>
-        &nbsp;&nbsp;<span class="navbar-link disable-select" onclick="changeTheme()" id="navbar-toggle">DARK MODE</span>
       </span>
     </div>
   </div>
