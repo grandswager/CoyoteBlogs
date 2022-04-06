@@ -2,8 +2,8 @@
 <html>
 
 <head>
-  <title>grandswager | Random Blog</title>
-  <link rel="icon" href="https://cdn.grandswager.repl.co/94ada1" />
+  <title>Perutzism | Random Blog</title>
+  <link rel="icon" href="https://cdn.grandswager.repl.co/52821f" />
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
   <link href="/css/rfuregwireweight.css" rel="stylesheet" type="text/css" />
@@ -14,16 +14,17 @@
         <span class="navbar-link dropbtn disable-select">AUTHORS</span>
         <div class="dropdown-content">
           <a href="/author:grandcoyote2">Grandcoyote2</a>
-          <a href="/author:grandswager">grandswager</a>                    <a href="/author:perutzism">Perutzism</a>
+          <a href="/author:grandswager">grandswager</a>
+          <a href="/author:perutzism">Perutzism</a>
         </div>
       </div>
-        &nbsp;&nbsp;<span class="navbar-link disable-select" onclick="changeMode()" id="navbar-toggle">DARK MODE</span>
+        &nbsp;&nbsp;<span class="navbar-link disable-select" onclick="changeTheme()" id="navbar-toggle">DARK MODE</span>
       </span>
     </div>
   </div>
   <header class="header">
     <h1 style="display:inline-flex;" class="disable-select">
-      Author:&nbsp;<img src="https://cdn.grandswager.repl.co/94ada1" class="post-author-in">&nbsp;grandswager | Random Blog
+      Author:&nbsp;<img src="https://cdn.grandswager.repl.co/52821f"" class="post-author-in">&nbsp;Perutzism | Random Blog
     </h1>
   </header>
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -33,9 +34,9 @@
 <body>
   <h3 class="posts-text">Posts:</h3>  
   <h3 class="post-nothing">Nothing here to see yet. Come back later!</h3>
-  <script src="/js/joyedsolid.js"></script>
+  <script src="/js/judicalsalesperson.js"></script>
 </body>
   <footer>
-    <p class="footer">©2022 CoyoteBlogs</p>
+    <p style="font-family:Raleway; background-color:gray; padding:20px;">©2022 CoyoteBlogs</p>
   </footer>
 </html>

@@ -2,11 +2,11 @@
 <html>
 
 <head>
-  <link rel="icon" href="header.png" />
-  <title>grandcoyote2 | Random Blog</title>
+  <link rel="icon" href="/images/header.png" />
+  <title>Grandcoyote2 | Random Blog</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
-  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link href="/css/rfuregwireweight.css" rel="stylesheet" type="text/css" />
   <div class="navbar">
     <div>
       <span class="navbar-title disable-select">Random Blog</span><span class="navbar-object"><a href="/" class="navbar-link disable-select">HOME</a>&nbsp;&nbsp;&nbsp;
@@ -15,6 +15,7 @@
         <div class="dropdown-content">
           <a href="/author:grandcoyote2">Grandcoyote2</a>
           <a href="/author:grandswager">grandswager</a>
+          <a href="/author:perutzism">Perutzism</a>
         </div>
       </div>
       </span>
@@ -39,9 +40,9 @@
     </div>
     <p class="post-inner">This blog is completely random. Made by @Grandcoyote2 and @grandswager. This blog is made with only HTML, CSS, Javascript and JSON. It isn't powered by any blogging platform. We will mostly probably be talking about coding stuff and brand new updates. Most of the coding is done by <a href="https://github.com/grandswager" class="post-content-link">grandswager</a> (I don't know that much of coding). You will sometimes notice that images don't load that is because they are taken from a custom made cdn (content delivery network) and sometimes the cdn crashes, so its not your internet's problem. </p>
   </section>
-  <script src="script.js"></script>
+  <script src="/js/justicesuite.js"></script>
 </body>
   <footer>
-    <p style="font-family:Raleway; background-color:gray; padding:20px;">©2022 CoyoteBlogs</p>
+    <p class="footer">©2022 CoyoteBlogs</p>
   </footer>
 </html>

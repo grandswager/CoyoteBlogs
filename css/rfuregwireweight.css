@@ -31,7 +31,7 @@
   color: white;
   font-size: 24px;
 }
-
+  
 .navbar-link:hover {
   cursor:pointer;
 }
@@ -59,15 +59,19 @@
   display: block;
 }
 
-.dropdown-content a:hover {background-color: #ddd;}
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
 
-.dropdown:hover .dropdown-content {display: block; cursor: pointer;}
+.dropdown:hover .dropdown-content {
+  display: block; cursor: pointer;
+}
 
 .header {
   text-align:center;
   padding:50px;
   font-family: 'Raleway', sans-serif;
-  background-image:url("header.png");
+  background-image:url("/images/header.png");
   height: 50%;
   background-position: center;
   background-repeat: no-repeat;
@@ -94,15 +98,21 @@
 }
 
 .post-author {
-  width:50px;border-radius:50%;border:1px solid black;
+  width:50px;
+  border-radius:50%;
+  border:1px solid black;
 }
 
 .post-author-in {
-  width:50px;border-radius:50%;border:2px solid white;
+  width:50px;
+  border-radius:50%;
+  border:2px solid white;
 }
 
 .post-author-name {
-  margin-left:5px;margin-top:19px;text-size:40px;
+  margin-left:5px;
+  margin-top:19px;
+  text-size:40px;
 }
 
 .post-inner {
@@ -127,4 +137,10 @@
 
 .posts-text {
   font-family: 'Raleway', sans-serif;
+}
+
+.footer {
+  font-family:Raleway; 
+  background-color:gray; 
+  padding:20px;
 }
