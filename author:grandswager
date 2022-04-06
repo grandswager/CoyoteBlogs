@@ -17,7 +17,6 @@
           <a href="/author:grandswager">grandswager</a>                    <a href="/author:perutzism">Perutzism</a>
         </div>
       </div>
-        &nbsp;&nbsp;<span class="navbar-link disable-select" onclick="changeMode()" id="navbar-toggle">DARK MODE</span>
       </span>
     </div>
   </div>
@@ -32,8 +31,14 @@
 </head>
 <body>
   <h3 class="posts-text">Posts:</h3>  
-  <h3 class="post-nothing">Nothing here to see yet. Come back later!</h3>
-  <script src="/js/joyedsolid.js"></script>
+  <section class="leftcolumns">
+    <h1 class="post-title">Why we temporarily disabled the dark mode in authors page.</h1>
+    <div class="post-outer">
+      <a href="/author:grandswager" class="post-author-link"><img src="https://cdn.grandswager.repl.co/94ada1" class="post-author"> 
+      <p class="post-author-name">By grandswager -2022/04/06</a></p>
+    </div>
+    <p class="post-inner">We temporarily disabled the dark mode because it had a lot of bugs and we needed to clean it up. Don't worry, it will be back soon and you're eyes won't die from the insane brightness. </p>
+  </section>  <script src="/js/joyedsolid.js"></script>
 </body>
   <footer>
     <p class="footer">©2022 CoyoteBlogs</p>

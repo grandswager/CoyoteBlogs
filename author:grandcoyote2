@@ -36,7 +36,7 @@
     <h1 class="post-title">Welcome!</h1>
     <div class="post-outer">
       <img src="https://cdn.grandswager.repl.co/cab98d" class="post-author"> 
-      <p class="post-author-name">By Grandcoyote2</p>
+      <p class="post-author-name">By Grandcoyote2 -2022/04/05</p>
     </div>
     <p class="post-inner">This blog is completely random. Made by @Grandcoyote2 and @grandswager. This blog is made with only HTML, CSS, Javascript and JSON. It isn't powered by any blogging platform. We will mostly probably be talking about coding stuff and brand new updates. Most of the coding is done by <a href="https://github.com/grandswager" class="post-content-link">grandswager</a> (I don't know that much of coding). You will sometimes notice that images don't load that is because they are taken from a custom made cdn (content delivery network) and sometimes the cdn crashes, so its not your internet's problem. </p>
   </section>

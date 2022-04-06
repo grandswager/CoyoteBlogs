@@ -13,9 +13,9 @@ let postTitle = document.getElementsByClassName("post-title");
 let postAuthor = document.getElementsByClassName("post-author");
 let footer = document.getElementsByClassName("footer");
 
-function changeContrast(element, colorTo) {
+function changeContrast(element, colorToTurn) {
   for(var i = 0; i < element.length; i++){
-    element[i].style.color = colorToChange;
+    element[i].style.color = colorToTurn;
   }
 }
 
@@ -27,17 +27,17 @@ function changeMode() {
     for(var i = 0; i < navbar.length; i++){
       navbar[i].style.backgroundColor = "lightgray";
     }
-    changeColor(navbarTitle, "black");
-    changeColor(navbarLink, "black");
-    changeColor(postsText, "white");
+    changeContrast(navbarTitle, "black");
+    changeContrast(navbarLink, "black");
+    changeContrast(postsText, "white");
     for(var i = 0; i < sections.length; i++){
       sections[i].style.backgroundColor = "#0f0f0f";
     }
-    changeColor(postInner, "white");
-    changeColor(postAuthorName, "white");
-    changeColor(postAuthorLink, "white");
-    changeColor(postOuter, "white");
-    changeColor(postTitle, "white");
+    changeContrast(postInner, "white");
+    changeContrast(postAuthorName, "white");
+    changeContrast(postAuthorLink, "white");
+    changeContrast(postOuter, "white");
+    changeContrast(postTitle, "white");
     for(var i = 0; i < postAuthor.length; i++){
       postAuthor[i].style.border = "1px solid white";
     }
@@ -51,17 +51,17 @@ function changeMode() {
     for(var i = 0; i < navbar.length; i++){
       navbar[i].style.backgroundColor = "#4f4a4a";
     }
-    changeColor(navbarTitle, "white");
-    changeColor(navbarLink, "white");
-    changeColor(postsText, "black");
+    changeContrast(navbarTitle, "white");
+    changeContrast(navbarLink, "white");
+    changeContrast(postsText, "black");
     for(var i = 0; i < sections.length; i++){
       sections[i].style.backgroundColor = "lightgray";
     }
-    changeColor(postInner, "black");
-    changeColor(postAuthorName, "black");
-    changeColor(postAuthorLink, "black");
-    changeColor(postOuter, "black");
-    changeColor(postTitle, "black");
+    changeContrast(postInner, "black");
+    changeContrast(postAuthorName, "black");
+    changeContrast(postAuthorLink, "black");
+    changeContrast(postOuter, "black");
+    changeContrast(postTitle, "black");
     for(var i = 0; i < postAuthor.length; i++){
       postAuthor[i].style.border = "1px solid black";
     }
