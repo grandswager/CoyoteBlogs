@@ -2,11 +2,11 @@
 <html>
 
 <head>
-  <title>Random Blog</title>
+  <link rel="icon" href="header.png" />
+  <title>grandcoyote2 | Random Blog</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
   <link href="style.css" rel="stylesheet" type="text/css" />
-  <link rel="icon" href="logo.png" />
   <div class="navbar">
     <div>
       <span class="navbar-title disable-select">Random Blog</span><span class="navbar-object"><a href="/" class="navbar-link disable-select">HOME</a>&nbsp;&nbsp;&nbsp;
@@ -20,19 +20,24 @@
       </span>
     </div>
   </div>
-  <header class="header disable-select"><h1>Random Blog</h1></header>
+  <header class="header">
+    <h1 style="display:inline-flex;" class="disable-select">
+      Author:&nbsp;<img src="https://cdn.grandswager.repl.co/cab98d" class="post-author-in">&nbsp;Grandcoyote2 | Random Blog
+    </h1>
+  </header>
   <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&display=swap" rel="stylesheet">
 </head>
 <body>
+  <h3 class="posts-text">Posts:</h3>
   <section class="leftcolumns">
     <h1 class="post-title">Welcome!</h1>
     <div class="post-outer">
-      <a href="/author:grandcoyote2" class="post-author-link"><img src="https://cdn.grandswager.repl.co/cab98d" class="post-author"> 
-      <p class="post-author-name">By Grandcoyote2</a></p>
+      <img src="https://cdn.grandswager.repl.co/cab98d" class="post-author"> 
+      <p class="post-author-name">By Grandcoyote2</p>
     </div>
-    <p class="post-inner">This blog is completely random. Made by @Grandcoyote2 and @grandswager. This blog is made with only HTML, CSS, Javascript and JSON. It isn't powered by any blogging platform. We will mostly probably be talking about coding stuff and brand new updates. Most of the coding is done by <a href="author:grandswager" class="post-content-link">grandswager</a> (I don't know that much of coding). You will sometimes notice that images don't load that is because they are taken from a custom made cdn (content delivery network) and sometimes the cdn crashes, so its not your internet's problem.</p>
+    <p class="post-inner">This blog is completely random. Made by @Grandcoyote2 and @grandswager. This blog is made with only HTML, CSS, Javascript and JSON. It isn't powered by any blogging platform. We will mostly probably be talking about coding stuff and brand new updates. Most of the coding is done by <a href="https://github.com/grandswager" class="post-content-link">grandswager</a> (I don't know that much of coding). You will sometimes notice that images don't load that is because they are taken from a custom made cdn (content delivery network) and sometimes the cdn crashes, so its not your internet's problem. </p>
   </section>
   <script src="script.js"></script>
 </body>
