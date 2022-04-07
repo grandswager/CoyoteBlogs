@@ -21,8 +21,8 @@
       </span>
     </div>
   </div>
-  <header class="header">
-    <h1 style="display:inline-flex;" class="disable-select">
+  <header class="header" style="background-image: url('https://cdn.grandswager.repl.co/52821f');">
+    <h1 style="display:inline-flex;" class="disable-select perutz-takeover">
       Author:&nbsp;<img src="https://cdn.grandswager.repl.co/52821f"" class="post-author-in">&nbsp;Perutzism | Random Blog
     </h1>
   </header>
