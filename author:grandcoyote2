@@ -29,20 +29,21 @@
           <a href="/author:perutzism">Perutzism</a>
         </div>
       </div>
+        &nbsp;&nbsp;<span class="navbar-link disable-select" onclick="changeTheme()" id="navbar-toggle">DARK MODE</span>
       </span>
     </div>
   </div>
   <header class="header">
     <h1 style="display:inline-flex;" class="disable-select">
       Author:&nbsp;<img src="https://cdn.grandswager.repl.co/cab98d" class="post-author-in">&nbsp;Grandcoyote2 | Random Blog
-    </h1>
+    </h1><h3 id="header-title"></h3>
   </header>
   <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=BIZ+UDPGothic:wght@700&display=swap" rel="stylesheet">
 </head>
-<body>
+<body id="body" onload="onload()">
   <h3 class="posts-text">Posts:</h3>
   <section class="leftcolumns">
     <h1 class="post-title">Welcome!</h1>
@@ -52,7 +53,7 @@
     </div>
     <p class="post-inner">This blog is completely random. Made by @Grandcoyote2 and @grandswager. This blog is made with only HTML, CSS, Javascript and JSON. It isn't powered by any blogging platform. We will mostly probably be talking about coding stuff and brand new updates. Most of the coding is done by <a href="https://github.com/grandswager" class="post-content-link">grandswager</a> (I don't know that much of coding). You will sometimes notice that images don't load that is because they are taken from a custom made cdn (content delivery network) and sometimes the cdn crashes, so its not your internet's problem. </p>
   </section>
-  <script src="/js/justicesuite.js"></script>
+  <script src="/js/judicalsalesperson.js"></script>
 </body>
   <footer>
     <p class="footer">©2022 CoyoteBlogs</p>
