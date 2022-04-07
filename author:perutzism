@@ -32,10 +32,10 @@
 </head>
 <body>
   <h3 class="posts-text">Posts:</h3>  
-  <h3 class="post-nothing">Nothing here to see yet. Come back later!</h3>
+  <h3 class="post-nothing">Nothing here to see yet. Come back later! Perutzism will take over soon.</h3>
   <script src="/js/judicalsalesperson.js"></script>
 </body>
   <footer>
-    <p style="font-family:Raleway; background-color:gray; padding:20px;">©2022 CoyoteBlogs</p>
+    <p style="font-family:Raleway; background-color:gray; padding:20px;">©2022 Perutzism</p>
   </footer>
 </html>
