@@ -32,10 +32,16 @@
 </head>
 <body>
   <h3 class="posts-text">Posts:</h3>  
-  <h3 class="post-nothing">Nothing here to see yet. Come back later! Perutzism will take over soon.</h3>
-  <script src="/js/judicalsalesperson.js"></script>
+  <section class="leftcolumns">
+    <h1 class="post-title">Why we game harder then gamers could game</h1>
+    <div class="post-outer">
+      <a href="/author:perutzism" class="post-author-link"><img src="https://cdn.grandswager.repl.co/52821f" class="post-author"> 
+      <p class="post-author-name">By perutzism -538 BC/06/22</a></p>
+    </div>
+    <p class="post-inner">because we can </p>
+  </section>  <script src="/js/joyedsolid.js"></script>
 </body>
   <footer>
-    <p style="font-family:Raleway; background-color:gray; padding:20px;">©2022 Perutzism</p>
+    <p class="footer">©gaming incorporated</p>
   </footer>
 </html>

@@ -1,4 +1,5 @@
 var mode = localStorage.getItem("mode");
+var acc  = localStorage.getItem("account");
 let body = document.getElementById("body");
 let themeBtn = document.getElementById("navbar-toggle");
 let navbar = document.getElementsByClassName("navbar");
@@ -75,6 +76,7 @@ function changeTheme() {
 }
 
 function onload() {
+  // light mode dark mode
   if (mode === "dark") {
     console.log("Changed theme to dark from localstorage.");
     changeTheme();
@@ -83,5 +85,20 @@ function onload() {
   } else {
     console.log("Cannot find data/incorrect, creating key.");
     localStorage.setItem("mode","light");
+  }
+
+  // account
+  if (acc === "grandswager") {
+    console.log("Detected grandswager site login.")
+    document.getElementById("header-title").innerText = "Hello, grandswager.";
+  } else if (acc === "Grandcoyote2") {
+    console.log("Detected Grandcoyote2 site login.")
+    document.getElementById("header-title").innerText = "Hello, Grandcoyote2.";
+  } else if (acc === "perutzism") {
+    console.log("Detected perutzism site login.")
+    document.getElementById("header-title").innerText = "Hello, perutzism.";
+  } else {
+    console.log("Not Admin");
+    localStorage.setItem("account", "Not Admin");
   }
 }

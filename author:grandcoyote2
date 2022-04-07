@@ -6,6 +6,17 @@
   <title>Grandcoyote2 | Random Blog</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
+  <meta name="description" content="Random Blog">
+  <meta name="keywords" content="grandcoyote2">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="grandcoyote2 | Random Blog">
+  <meta property="og:url" content="https://randomblog.grandcoyote2.repl.co/author:grandcoyote2">
+  <meta property="og:site_name" content="Random Blog">
+  <meta property="og:description" content="Look at all the posts made by grandcoyote2.">
+  <meta property="og:locale" content="en">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="grnaRandom Blog">
+  <meta name="twitter:description" content="A blog created by grandcoyote2 and grandswager.">
   <link href="/css/rfuregwireweight.css" rel="stylesheet" type="text/css" />
   <div class="navbar">
     <div>
