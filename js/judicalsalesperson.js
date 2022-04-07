@@ -8,6 +8,7 @@ let navbarLink = document.getElementsByClassName("navbar-link");
 let postsText = document.getElementsByClassName("posts-text");
 let sections = document.getElementsByClassName("leftcolumns");
 let postInner = document.getElementsByClassName("post-inner");
+let postSubTitle = document.getElementsByClassName("post-subtitle");
 let postAuthorName = document.getElementsByClassName("post-author-name");
 let postAuthorLink = document.getElementsByClassName("post-author-link");
 let postOuter = document.getElementsByClassName("post-outer");
@@ -34,9 +35,10 @@ function changeTheme() {
     changeColor(navbarLink, "black");
     changeColor(postsText, "white");
     for(var i = 0; i < sections.length; i++){
-      sections[i].style.backgroundColor = "#0f0f0f";
+      sections[i].style.backgroundColor = "#2b2b2b";
     }
     changeColor(postInner, "white");
+    changeColor(postSubTitle, "white");
     changeColor(postAuthorName, "white");
     changeColor(postAuthorLink, "white");
     changeColor(postOuter, "white");
@@ -62,6 +64,7 @@ function changeTheme() {
       sections[i].style.backgroundColor = "lightgray";
     }
     changeColor(postInner, "black");
+    changeColor(postSubTitle, "black");
     changeColor(postAuthorName, "black");
     changeColor(postAuthorLink, "black");
     changeColor(postOuter, "black");
