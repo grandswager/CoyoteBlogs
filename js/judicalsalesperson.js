@@ -1,3 +1,4 @@
+var mode = localStorage.getItem("mode");
 let body = document.getElementById("body");
 let themeBtn = document.getElementById("navbar-toggle");
 let navbar = document.getElementsByClassName("navbar");
@@ -21,6 +22,7 @@ function changeColor(element, colorToChange) {
 
 function changeTheme() {
   if (themeBtn.innerHTML === "DARK MODE") {
+    localStorage.setItem("mode","dark");
     console.log("Light Mode To Dark");
     themeBtn.innerHTML = "LIGHT MODE";
     body.style.backgroundColor = "black";
@@ -45,6 +47,7 @@ function changeTheme() {
       footer[i].style.backgroundColor = "lightgray";
     }
   } else if (themeBtn.innerHTML === "LIGHT MODE") {
+    localStorage.setItem("mode", "light")
     console.log("Dark Mode To Light");
     themeBtn.innerHTML = "DARK MODE";
     body.style.backgroundColor = "white";
@@ -68,5 +71,17 @@ function changeTheme() {
     for(var i = 0; i < footer.length; i++){
       footer[i].style.backgroundColor = "gray";
     }
+  }
+}
+
+function onload() {
+  if (mode === "dark") {
+    console.log("Changed theme to dark from localstorage.");
+    changeTheme();
+  } else if (mode === "light") {
+    console.log("Already light, no need to change theme.");
+  } else {
+    console.log("Cannot find data/incorrect, creating key.");
+    localStorage.setItem("mode","light");
   }
 }
