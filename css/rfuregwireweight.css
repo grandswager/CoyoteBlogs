@@ -80,6 +80,10 @@
   color: white;
 }
 
+#header-title {
+  font-family: 'BIZ UDPGothic', sans-serif;
+}
+
 .leftcolumns {
   font-family: 'Raleway', sans-serif;
   text-align: center;
