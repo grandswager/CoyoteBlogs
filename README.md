@@ -2,7 +2,7 @@
 ---
 
 ## How to edit
-To edit just send a request on [Github Issues](https://github.com/grandswager/CoyoteBlogs/issues/new) and we might accept the edit.
+To edit just send a request on [GitHub Issues](https://github.com/grandswager/CoyoteBlogs/issues/new) and we might accept the edit.
 
 ## Who are we?
 We are a team of developers grandswager, Grandcoyote2, and perutzism. We just wanted to make a custom blog with only pure HTML, CSS, and JS. Nothing else is added.
@@ -12,4 +12,4 @@ Yes it was difficult, and it had a few bugs (like the theme changer, etc.), it w
 
 | grandswager | Perutzism   |
 | ----------- | ----------- |
-| [YouTube](https://youtube.com/grandswager)      | [YouTube]()|
+| [YouTube](https://youtube.com/grandswager)      | [YouTube](https://www.youtube.com/channel/UCWYsc6p0iE2lXsp_bP2P1Ng)|
