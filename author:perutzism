@@ -29,6 +29,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=BIZ+UDPGothic&display=swap" rel="stylesheet">
 </head>
 <body>
   <h3 class="posts-text">Posts:</h3>  
@@ -42,6 +43,6 @@
   </section>  <script src="/js/joyedsolid.js"></script>
 </body>
   <footer>
-    <p class="footer">©gaming incorporated</p>
+    <p class="footer">©2022 CoyoteBlogs</p>
   </footer>
 </html>
