@@ -7,7 +7,7 @@ function login() {
     console.log("login to grandswager");
     localStorage.setItem("account", "grandswager");
     window.location.href = "/";
-  } else if (user.value === "Grandcoyote2" && pass.value === "Alex") {
+  } else if (user.value === "Grandcoyote2" && pass.value === "aweg^&ehJGAwjeHG7R|ree}RewrER{P&33HGJ'KJDFSHGFlre/sR'fDF::DfHDFfe023+#_%)(*") {
     console.log("login to Grandcoyote2");
     localStorage.setItem("account", "Grandcoyote2");
     window.location.href = "/";
