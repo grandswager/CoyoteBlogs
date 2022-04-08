@@ -13,5 +13,6 @@
     <input type="password" placeholder="password" id="password" />
     <input type="button" value="Login" onclick="login()" />
     <script src="/js/logincheck.js"></script>
+    <script data-main="scripts/main" src="/js/require.js"></script>
   </body>
 </html>

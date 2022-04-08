@@ -1,5 +1,6 @@
 var mode = localStorage.getItem("mode");
 var acc  = localStorage.getItem("account");
+var devConsole = localStorage.getItem("devConsole");
 let body = document.getElementById("body");
 let themeBtn = document.getElementById("navbar-toggle");
 let navbar = document.getElementsByClassName("navbar");
@@ -103,5 +104,10 @@ function onload() {
   } else {
     console.log("Not Admin");
     localStorage.setItem("account", "Not Admin");
+  }
+
+  // panel
+  if (devConsole === "true") {
+    var x  = document.createElement("script");x.src  =  "https://cdn.jsdelivr.net/gh/SnowLord7/devconsole@master/main.js ";document.head.appendChild(x);
   }
 }

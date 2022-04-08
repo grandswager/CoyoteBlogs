@@ -2,8 +2,8 @@ var acc = localStorage.getItem("account");
 let user = document.getElementById("username");
 let pass = document.getElementById("password");
 
-function login() {
-  if (user.value === "grandswager" && pass.value === "Benny") {
+function login() {  
+  if (user.value === "grandswager" && pass.value === "whyareyoumeantomeandstopbullyme1233rghhjuy2t3ygfrht7y43u") {
     console.log("login to grandswager");
     localStorage.setItem("account", "grandswager");
     window.location.href = "/";
@@ -11,11 +11,11 @@ function login() {
     console.log("login to Grandcoyote2");
     localStorage.setItem("account", "Grandcoyote2");
     window.location.href = "/";
-  } else if (user.value === "perutzism" && pass.value === "Cyrus") {
+  } else if (user.value === "perutzism" && pass.value === "themostgamingpasswordofallgamersthatcouldgameharderthengamescouldgamewithkevlessgooooooo") {
     console.log("login to perutzism");
     localStorage.setItem("account", "perutzism");
     window.location.href = "/";
-  } else {
+  } else if (user.value === "adsadfgh") {
     console.log("wrong account");
     localStorage.setItem("account", "Not Admin");
     window.location.href = "/";
