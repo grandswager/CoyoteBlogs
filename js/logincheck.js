@@ -3,7 +3,7 @@ let user = document.getElementById("username");
 let pass = document.getElementById("password");
 
 function login() {  
-  if (user.value === "grandswager" && pass.value === "whyareyoumeantomeandstopbullyme1233rghhjuy2t3ygfrht7y43u") {
+  if (user.value === "grandswager" && pass.value === "whyareyoumeantomeandstopbullyme1233rghhjuy2d*5^%#$%#*(54e45\ew^%&t3ygfrht7y43u") {
     console.log("login to grandswager");
     localStorage.setItem("account", "grandswager");
     window.location.href = "/";
